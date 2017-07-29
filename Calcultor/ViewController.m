@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 - (IBAction)digitClicked:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UILabel *displayLabel;
 
 @end
 
@@ -29,7 +30,9 @@
 
 - (IBAction)digitClicked:(UIButton *)sender {
     NSString *digit = sender.currentTitle;
-    NSLog(@"按下%@",digit);
+    NSLog(@"Cliecked %@",digit);
+    self.displayLabel.text = [self.displayLabel.text stringByAppendingString:digit];
+    
 }
 
 
