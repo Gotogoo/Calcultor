@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+- (IBAction)digitClicked:(UIButton *)sender;
 
 @end
 
@@ -24,6 +25,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+- (IBAction)digitClicked:(UIButton *)sender {
+    NSString *digit = sender.currentTitle;
+    NSLog(@"按下%@",digit);
+}
+
 
 
 @end
