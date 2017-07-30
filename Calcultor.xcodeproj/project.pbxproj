@@ -15,6 +15,7 @@
 		F6B9A7091F2C879C00D6E7C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B9A7071F2C879C00D6E7C5 /* LaunchScreen.storyboard */; };
 		F6B9A7141F2C879C00D6E7C5 /* CalcultorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B9A7131F2C879C00D6E7C5 /* CalcultorTests.m */; };
 		F6B9A71F1F2C879C00D6E7C5 /* CalcultorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B9A71E1F2C879C00D6E7C5 /* CalcultorUITests.m */; };
+		F6B9A72E1F2CFD2200D6E7C5 /* CalcultorCore.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B9A72D1F2CFD2200D6E7C5 /* CalcultorCore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F6B9A71A1F2C879C00D6E7C5 /* CalcultorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcultorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B9A71E1F2C879C00D6E7C5 /* CalcultorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcultorUITests.m; sourceTree = "<group>"; };
 		F6B9A7201F2C879C00D6E7C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B9A72C1F2CFD2200D6E7C5 /* CalcultorCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcultorCore.h; sourceTree = "<group>"; };
+		F6B9A72D1F2CFD2200D6E7C5 /* CalcultorCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcultorCore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F6B9A6FD1F2C879C00D6E7C5 /* AppDelegate.m */,
 				F6B9A6FF1F2C879C00D6E7C5 /* ViewController.h */,
 				F6B9A7001F2C879C00D6E7C5 /* ViewController.m */,
+				F6B9A72C1F2CFD2200D6E7C5 /* CalcultorCore.h */,
+				F6B9A72D1F2CFD2200D6E7C5 /* CalcultorCore.m */,
 				F6B9A7021F2C879C00D6E7C5 /* Main.storyboard */,
 				F6B9A7051F2C879C00D6E7C5 /* Assets.xcassets */,
 				F6B9A7071F2C879C00D6E7C5 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B9A72E1F2CFD2200D6E7C5 /* CalcultorCore.m in Sources */,
 				F6B9A7011F2C879C00D6E7C5 /* ViewController.m in Sources */,
 				F6B9A6FE1F2C879C00D6E7C5 /* AppDelegate.m in Sources */,
 				F6B9A6FB1F2C879C00D6E7C5 /* main.m in Sources */,
